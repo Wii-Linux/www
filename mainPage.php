@@ -106,7 +106,7 @@ Developers
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://github.com/ThatsItForTheOtherOne"><img <?php img("github"); ?> alt="GitHub Icon"></a>
 <pre>
-- "Foxlet" / "uwuowu"
+- "Foxlet"
     - Main Void Linux handler
     - Expert at all things userspace
     - Runs the Void Linux PPC project, which is used by us, and we actively help with
