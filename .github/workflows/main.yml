@@ -10,9 +10,6 @@ jobs:
    runs-on: ubuntu-latest
 
    steps:
-   - name: Checkout code
-     uses: actions/checkout@v2
-
    - name: Setup SSH Keys and known_hosts
      env:
        SSH_AUTH_SOCK: /tmp/ssh_agent.sock
@@ -27,5 +24,5 @@ jobs:
        chmod 644 ~/.ssh/id_ed25519.pub
        ssh-keyscan -H wii-linux.org > ~/.ssh/known_hosts
 
-   - name: Rsync files to server
-     run: rsync -avzP --delete ./ root@wii-linux.org:/srv/www/wii-linux.org/
+   - name: Git pull on server
+     run: ssh root@wii-linux.org  'cd /srv/www/wii-linux.org; git pull'
