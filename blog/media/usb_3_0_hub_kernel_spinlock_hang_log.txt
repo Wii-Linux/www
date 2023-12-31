@@ -1,0 +1,27 @@
+[ 1693.794895] BUG: spinlock lockup suspected on CPU#0, udevd/1294
+[ 1693.794920]  lock: 0xd289d614, .magic: dead4ead, .owner: udevd/1294, .owner_cpu: 0
+[ 1693.794932] CPU: 0 PID: 1294 Comm: udevd Tainted: G        W       4.4.302-cip80-wii+ #8
+[ 1693.794938] Call Trace:
+[ 1693.794953] [d3d79c80] [c00512b8] do_raw_spin_lock+0x17c/0x220 (unreliable)
+[ 1693.794971] [d3d79ca0] [c05ff3ec] _raw_spin_lock_irqsave+0x34/0x50
+[ 1693.794983] [d3d79cb0] [c0371858] ehci_urb_enqueue+0x348/0x1010
+[ 1693.794994] [d3d79d10] [c0357dd0] usb_hcd_submit_urb+0xc0/0x928
+[ 1693.795005] [d3d79dc0] [c03d66a4] hid_submit_ctrl+0x140/0x2b4
+[ 1693.795015] [d3d79de0] [c03d6ea4] hid_ctrl+0xfc/0x1a4
+[ 1693.795024] [d3d79e00] [c0356ce4] __usb_hcd_giveback_urb+0x8c/0x13c
+[ 1693.795034] [d3d79e20] [c036d358] qh_completions+0x374/0x5d8
+[ 1693.795044] [d3d79e70] [c0370578] ehci_work+0x8dc/0xa78
+[ 1693.795053] [d3d79ed0] [c0370abc] ehci_irq+0x2f4/0x32c
+[ 1693.795063] [d3d79f10] [c035573c] usb_hcd_irq+0x30/0x50
+[ 1693.795076] [d3d79f20] [c00580d8] handle_irq_event_percpu+0x7c/0x2ec
+[ 1693.795086] [d3d79f50] [c0058394] handle_irq_event+0x4c/0x88
+[ 1693.795098] [d3d79f70] [c005b520] handle_level_irq+0xd4/0x1cc
+[ 1693.795108] [d3d79f90] [c0057920] generic_handle_irq+0x30/0x4c
+[ 1693.795121] [d3d79fa0] [c0015894] hlwd_pic_irq_cascade+0xb8/0x134
+[ 1693.795131] [d3d79fc0] [c0057920] generic_handle_irq+0x30/0x4c
+[ 1693.795144] [d3d79fd0] [c0005f30] __do_irq+0x4c/0x17c
+[ 1693.795156] [d3d79ff0] [c000e590] call_do_irq+0x24/0x3c
+[ 1693.795166] [d127df10] [c0006104] do_IRQ+0xa4/0x158
+[ 1693.795177] [d127df40] [c0010604] ret_from_except+0x0/0x14
+[ 1693.795187] --- interrupt: 501 at 0xadf114
+                   LR = 0xadf0cc
