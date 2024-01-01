@@ -17,7 +17,7 @@ else if (substr($request, -1) == '/') {
 }
 else if (!preg_match('/\./', $request)) {
 	// Request with no extension
-	if (file_exists($_SERVER['DOCUMENT_ROOT'] . $request . '/index.php')) {
+	if (file_exists($_SERVER['DOCUMENT_ROOT'] . '/site' . $request . '/index.php')) {
 		$file = $request . '/index.php';
 	}
 	else {
@@ -29,7 +29,7 @@ else {
 	$file = $request;
 }
 
-$file_path = $_SERVER['DOCUMENT_ROOT'] . $file;
+$file_path = $_SERVER['DOCUMENT_ROOT'] . '/site' . $file;
 
 if (file_exists($file_path)) {
 	try {
