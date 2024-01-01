@@ -18,7 +18,7 @@ special hacks specific to the Wii.
   <source src="/blog/media/internet_channel_approved.mp4" type="video/mp4">
   <source src="/blog/media/internet_channel_approved.webm" type="video/webm">
   Your browser does not support HTML5 video. &nbpsp;Trying to load an Adobe Flash version for ancient browsers.
-  <script src="/video.js">
-    const player = videojs(document.querySelector('.video-js'));
-  </script>
 </video>
+<script src="/video.js">
+	const player = videojs(document.querySelector('.video-js'));
+</script>
