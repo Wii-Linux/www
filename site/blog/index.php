@@ -1,5 +1,5 @@
 <?php
-$files = glob($_SERVER['DOCUMENT_ROOT'] . '/blog/' . '*.php');
+$files = glob($_SERVER['DOCUMENT_ROOT'] . '/site/blog/' . '*.php');
 global $files;
 $metadata = array();
 global $metadata;
@@ -40,7 +40,7 @@ Wii Linux Developers Blog
 <?php
 // display it
 foreach ($metadata as $file => $data) {
-    echo('['.$data['date'].'] '.$data['author'].': <a href="'.$file.'">'.$data['title']."</a>\r\n");
+    echo('['.$data['date'].'] '.$data['author'].': <a href="/blog/'.$file.'">'.$data['title']."</a>\r\n");
 }
 ?>
 
