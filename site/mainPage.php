@@ -90,6 +90,8 @@ Developers
     - Gives Support
     - Some kernel development
     - Does most of the compiling
+<?php // TODO: Update the bwloe when/if it changes. ?>
+    - Built essentially all of this website so far
 </pre>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://techflash.wtf"><img src="/icons/web_32x32.png" alt="Globe icon"></a>
