@@ -14,7 +14,7 @@ the Opera 9.0-based Internet Channel.  It needed a bit of work
 to function properly, but now I have it working with a few
 special hacks specific to the Wii.
 
-<video class="video-js" id="my-video">
+<video class="video-js" id="my-video" controls="true">
   <source src="/blog/media/internet_channel_approved.mp4" type="video/mp4">
   <source src="/blog/media/internet_channel_approved.webm" type="video/webm">
   Your browser does not support HTML5 video. &nbpsp;Trying to load an Adobe Flash version for ancient browsers.
