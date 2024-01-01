@@ -27,17 +27,24 @@ else if (!preg_match('/\./', $request)) {
 else {
 	// Request for any other type of file
 	$file = $request;
+	$type = mime_content_type($_SERVER['DOCUMENT_ROOT'] . '/site' . $file);
+	header("Content-Type: $type");
 }
 
 $file_path = $_SERVER['DOCUMENT_ROOT'] . '/site' . $file;
 
 if (file_exists($file_path)) {
-	try {
-		require $file_path;
+	if (str_contains($type, "text")) {
+		try {
+			require $file_path;
+		}
+		catch (Exception $e) {
+			// Display 500.php on any exception
+			require $_SERVER['DOCUMENT_ROOT'] . '/500.php';
+		}
 	}
-	catch (Exception $e) {
-		// Display 500.php on any exception
-		require $_SERVER['DOCUMENT_ROOT'] . '/500.php';
+	else {
+		echo(file_get_contents($file_path));
 	}
 }
 else {
