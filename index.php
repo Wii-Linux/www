@@ -6,6 +6,8 @@ function do404() {
 
 $request = $_SERVER['REQUEST_URI'];
 global $request;
+$type = "text/php";
+global $type;
 
 if ($request == '/' || $request == '/index.php') {
 	// Request for main page
@@ -27,6 +29,7 @@ else if (!preg_match('/\./', $request)) {
 else {
 	// Request for any other type of file
 	$file = $request;
+	global $type;
 	$type = mime_content_type($_SERVER['DOCUMENT_ROOT'] . '/site' . $file);
 	header("Content-Type: $type");
 }
@@ -34,6 +37,7 @@ else {
 $file_path = $_SERVER['DOCUMENT_ROOT'] . '/site' . $file;
 
 if (file_exists($file_path)) {
+	global $type;
 	if (str_contains($type, "text")) {
 		try {
 			require $file_path;
@@ -44,7 +48,7 @@ if (file_exists($file_path)) {
 		}
 	}
 	else {
-		echo(file_get_contents($file_path));
+		readfile($file_path);
 	}
 }
 else {
