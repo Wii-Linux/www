@@ -14,11 +14,11 @@ the Opera 9.0-based Internet Channel.  It needed a bit of work
 to function properly, but now I have it working with a few
 special hacks specific to the Wii.
 
-<video class="video-js" id="my-video" controls="true">
+<video controls="true">
 	<source src="/blog/media/internet_channel_approved.mp4" type="video/mp4">
 	<source src="/blog/media/internet_channel_approved.webm" type="video/webm">
 	<source src="/blog/media/internet_channel_approved.flv" type="video/flv">
+	<object data="/blog/media/internet_channel_approved.flv">
+		<embed src="/blog/media/internet_channel_approved.flv">
+	</object>
 </video>
-<script src="/video.js">
-	const player = videojs(document.querySelector('.video-js'));
-</script>
