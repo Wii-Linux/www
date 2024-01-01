@@ -18,7 +18,7 @@ special hacks specific to the Wii.
 	<source src="/blog/media/internet_channel_approved.mp4" type="video/mp4">
 	<source src="/blog/media/internet_channel_approved.webm" type="video/webm">
 	<source src="/blog/media/internet_channel_approved.flv" type="video/flv">
-	<object data="/blog/media/internet_channel_approved.flv">
-		<embed src="/blog/media/internet_channel_approved.flv">
+	<object type="application/x-shockwave-flash" data="/blog/media/internet_channel_approved.swf">
+		<embed src="/blog/media/internet_channel_approved.swf">
 	</object>
 </video>
