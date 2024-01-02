@@ -3,7 +3,11 @@ function do404() {
 	require $_SERVER['DOCUMENT_ROOT'] . '/404.php';
 	die();
 }
-
+$isWii = false;
+if (strpos($_SERVER['HTTP_USER_AGENT'], 'Opera/9') !== false) {
+	$isWii = true;
+}
+global $isWii;
 $request = $_SERVER['REQUEST_URI'];
 global $request;
 $type = "text/php";
@@ -31,6 +35,9 @@ else {
 	$file = $request;
 	global $type;
 	$type = mime_content_type($_SERVER['DOCUMENT_ROOT'] . '/site' . $file);
+	if (substr($request, -3) == '.js') {
+		$type = "text/javascript";
+	}
 	header("Content-Type: $type");
 }
 
@@ -38,7 +45,7 @@ $file_path = $_SERVER['DOCUMENT_ROOT'] . '/site' . $file;
 
 if (file_exists($file_path)) {
 	global $type;
-	if (str_contains($type, "text")) {
+	if (str_contains($type, "text") && $type !== "text/javascript" && $type !== "text/xml") {
 		try {
 			require $file_path;
 		}
