@@ -1,8 +1,5 @@
 <?php
-$isWii = false;
-if (strpos($_SERVER['HTTP_USER_AGENT'], 'Wii') !== false) {
-	$isWii = true;
-}
+
 function img($name) {
 	global $isWii;
 	// workaround for Wii's stupid internet channel

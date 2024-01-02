@@ -1,6 +1,7 @@
 <?php
 global $noLoad;
 global $request;
+global $injectHead;
 if ($noLoad === true) {
 	return;
 }
@@ -18,6 +19,11 @@ include '___version.php'
 <html>
 <head>
 	<title>Wii Linux - Blog: <?php echo $title?></title>
+	<?php
+	if ($injectHead !== null) {
+		echo($injectHead);
+	}
+	?>
 </head>
 <body>
 <pre>
