@@ -92,7 +92,7 @@ Developers
 </pre>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://techflash.wtf"><img src="/icons/web_32x32.png" alt="Globe icon"></a>
-<a href="https://github.com/techflashYT"><img <?php img("github"); ?> alt="GitHub Icon"></a>
+<a href="https://github.com/techflashYT"><img <?img("github");?> alt="GitHub Icon"></a>
 <a href="https://discord.com/invite/FnseMDFBH6"><img <?php img("discord"); ?> alt="Discord icon"></a>
 <a href="https://youtube.com/techflashYT"><img src="/icons/youtube.png" alt="YouTube Icon"></a>
 <pre>
@@ -103,7 +103,7 @@ Developers
     - Very knowledgable about the inner workings of the Wii
 </pre>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/ThatsItForTheOtherOne"><img <?php img("github"); ?> alt="GitHub Icon"></a>
+<a href="https://github.com/ThatsItForTheOtherOne"><img <?img("github");?> alt="GitHub Icon"></a>
 <pre>
 - "Foxlet"
     - Main Void Linux handler
@@ -112,7 +112,7 @@ Developers
     - Showed us how we can get more than an old Gentoo tarball from 2010 working
 </pre>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/foxlet"><img <?php img("github"); ?> alt="GitHub Icon"></a>
-<a href="https://codeberg.org/foxlet"><img <?php img("codeberg"); ?> alt="Codeberg Icon"></a>
+<a href="https://github.com/foxlet"><img <?img("github");?> alt="GitHub Icon"></a>
+<a href="https://codeberg.org/foxlet"><img <?img("codeberg");?> alt="Codeberg Icon"></a>
 </body>
 </html>
