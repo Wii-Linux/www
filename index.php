@@ -46,12 +46,14 @@ $file_path = $_SERVER['DOCUMENT_ROOT'] . '/site' . $file;
 if (file_exists($file_path)) {
 	global $type;
 	if (str_contains($type, "text") && $type !== "text/javascript" && $type !== "text/xml") {
-		try {
-			require $file_path;
-		}
-		catch (Exception $e) {
-			// Display 500.php on any exception
-			require $_SERVER['DOCUMENT_ROOT'] . '/500.php';
+		if (exec('grep <? '.$file_path)) {
+			try {
+				require $file_path;
+			}
+			catch (Exception $e) {
+				// Display 500.php on any exception
+				require $_SERVER['DOCUMENT_ROOT'] . '/500.php';
+			}
 		}
 	}
 	else {
