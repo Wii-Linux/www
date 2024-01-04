@@ -34,15 +34,24 @@ else {
 	// Request for any other type of file
 	$file = $request;
 	global $type;
-	$type = mime_content_type($_SERVER['DOCUMENT_ROOT'] . '/site' . $file);
-	if (substr($request, -3) == '.js') {
-		$type = "text/javascript";
+
+	$file_path = $_SERVER['DOCUMENT_ROOT'] . '/site' . $file;
+	if (file_exists($file_path)) {
+		global $type;
+		$type = mime_content_type($file_path);
+		if (substr($request, -3) == '.js') {
+			global $type;
+			$type = "text/javascript";
+		}
+	}
+	else {
+		
 	}
 	header("Content-Type: $type");
 }
 
-$file_path = $_SERVER['DOCUMENT_ROOT'] . '/site' . $file;
 
+$file_path = $_SERVER['DOCUMENT_ROOT'] . '/site' . $file;
 if (file_exists($file_path)) {
 	global $type;
 	if (str_contains($type, "text") && $type !== "text/javascript" && $type !== "text/xml") {
@@ -62,6 +71,7 @@ if (file_exists($file_path)) {
 }
 else {
 	// Display 404.php if file doesn't exist
+	header("Content-Type: text/html");
 	do404();
 }
 ?>
