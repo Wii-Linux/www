@@ -73,7 +73,7 @@ Links
 -----------
 - <a href="https://discord.com/invite/D9EBdRWzv2">Official Discord Server</a>
 - <a href="/installation_guide">Install Guide (TBD, ask Techflash until it's done!)</a>
-- Latest build's rootfs (.tar.xz, extract to the root of your USB device's ext4 partition) <a href="/latest.tar.xz">here.</a>
+- Latest build's rootfs (.tar.gz, extract to the root of your USB device's ext4 partition) <a href="/latest.tar.gz">here.</a>
 - Latest build's SD Card files (.zip, extract to the root of your SD Card) <a href="/latest-sd.zip">here.</a>
 - Latest build's kernel modules (.tar.gz, need these for Wi-Fi primarily, extract to USB root) <a href="/latest-modules.tar.gz">here.</a>
 - Wi-Fi Firmware (.tar.gz.  extract to the root of your USB disk) <a href="/openfwwf-5.2-bin.tar.gz">here.</a>  See the <a href="/openfwwf-5.2-LICENSE.txt">LICENSE</a>
