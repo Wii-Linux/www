@@ -9,6 +9,7 @@ if (strpos($_SERVER['HTTP_USER_AGENT'], 'Opera/9') !== false) {
 }
 global $isWii;
 $request = $_SERVER['REQUEST_URI'];
+$request = strtok($request, '?');
 global $request;
 $type = "text/php";
 global $type;
