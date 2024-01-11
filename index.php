@@ -7,12 +7,10 @@ $isWii = false;
 if (strpos($_SERVER['HTTP_USER_AGENT'], 'Opera/9') !== false) {
 	$isWii = true;
 }
-global $isWii;
 $request = $_SERVER['REQUEST_URI'];
 $request = strtok($request, '?');
-global $request;
+
 $type = "text/php";
-global $type;
 
 if ($request == '/' || $request == '/index.php') {
 	// Request for main page
