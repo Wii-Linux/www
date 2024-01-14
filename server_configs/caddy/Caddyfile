@@ -4,6 +4,9 @@ http://wii-linux.org https://wii-linux.org http://www.wii-linux.org https://www.
 		try_files /index.php
 	}
 
+	log {
+		level DEBUG
+	}
 	file_server
 }
 
