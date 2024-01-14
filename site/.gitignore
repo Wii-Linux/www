@@ -1,0 +1,7 @@
+wii-linux-rootfs*.tar*
+*modules*.tar*
+*_full.tar*
+latest-configs.tar*
+latest-kernel.elf
+*sd[-,_]files*
+
