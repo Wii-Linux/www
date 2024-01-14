@@ -60,6 +60,9 @@ if (file_exists($file_path)) {
 			}
 		}
 	}
+	else {
+		readfile($file_path);
+	}
 }
 else {
 	// Display 404.php if file doesn't exist
