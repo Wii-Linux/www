@@ -39,9 +39,6 @@ else {
 			$type = "text/javascript";
 		}
 	}
-	else {
-		readfile($file_path);
-	}
 	header("Content-Type: $type");
 }
 
