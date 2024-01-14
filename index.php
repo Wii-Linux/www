@@ -59,6 +59,8 @@ if (file_exists($file_path)) {
 	}
 	else {
 		ob_end_flush();
+		$len = filesize($file_path);
+		header("Content-Length: $len");
 		readfile($file_path);
 	}
 }
