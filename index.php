@@ -58,6 +58,7 @@ if (file_exists($file_path)) {
 		}
 	}
 	else {
+		ob_end_flush();
 		readfile($file_path);
 	}
 }
