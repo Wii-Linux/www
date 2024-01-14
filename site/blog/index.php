@@ -21,7 +21,7 @@ foreach ($files as $file) {
 }
 
 // sort it
-uasort($metadata, function($a, $b) {
+uasort($metadata, function ($a, $b) {
 	return strtotime($b['date']) - strtotime($a['date']);
 });
 

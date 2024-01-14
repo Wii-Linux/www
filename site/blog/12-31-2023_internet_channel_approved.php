@@ -21,7 +21,6 @@ special hacks specific to the Wii.
 
 <?php
 if (!$isWii) {
-
 ?>
 <video controls="true">
 	<source src="<?echo $fn;?>.mp4" type="video/mp4">

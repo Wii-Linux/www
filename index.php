@@ -16,7 +16,7 @@ if ($request == '/' || $request == '/index.php') {
 	// Request for main page
 	$file = '/mainPage.php';
 }
-else if (!preg_match('/\./', $request) || substr($request, -1) == '/') {
+elseif (!preg_match('/\./', $request) || substr($request, -1) == '/') {
 	// Request with no extension
 	if (file_exists($_SERVER['DOCUMENT_ROOT'] . '/site' . $request . '/index.php')) {
 		$file = $request . '/index.php';
@@ -40,7 +40,7 @@ else {
 		}
 	}
 	else {
-		
+		readfile($file_path);
 	}
 	header("Content-Type: $type");
 }
@@ -60,13 +60,9 @@ if (file_exists($file_path)) {
 			}
 		}
 	}
-	else {
-		readfile($file_path);
-	}
 }
 else {
 	// Display 404.php if file doesn't exist
 	header("Content-Type: text/html");
 	do404();
 }
-?>

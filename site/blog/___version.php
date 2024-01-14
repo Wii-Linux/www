@@ -9,4 +9,3 @@ if (str_contains($request, "/blog/___version")) {
 }
 $blogman_ver = "v0.0.1";
 global $blogman_ver;
-?>

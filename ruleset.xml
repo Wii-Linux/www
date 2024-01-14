@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ruleset name="MyStandard">
+    <description>Custom standards because I hate some of the PSR2 stuff, but also want to lint my code</description>
+    <arg name="tab-width" value="4"/>
+    <rule ref="Generic.WhiteSpace.ScopeIndent">
+        <properties>
+            <property name="indent" value="4"/>
+            <property name="tabIndent" value="true"/>
+        </properties>
+    </rule>
+    <rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie" />
+    <rule ref="PSR2">
+        <exclude name="Generic.WhiteSpace.DisallowTabIndent"/>
+        <exclude name="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine" />
+        <exclude name="Generic.PHP.DisallowShortOpenTag.PossibleFound" />
+	<exclude name="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseBrace" />
+        <exclude name="PSR1.Files.SideEffects.FoundWithSymbols" />
+        <exclude name="Generic.Files.LineLength.TooLong" />
+    </rule>
+</ruleset>
