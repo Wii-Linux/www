@@ -74,7 +74,7 @@ Links
 - <a href="https://discord.com/invite/D9EBdRWzv2">Official Discord Server</a>
 - <a href="/installation_guide">Install Guide (TBD, ask Techflash until it's done!)</a>
 - <a href="/blog">Wii Linux developers blog</a>  See progress updates and generally what's going on here.
-- Latest build's rootfs (.tar.gz, extract to the root of your USB device's ext4 partition) <a href="/latest_full.tar.gz">here.</a>
+- Latest build's rootfs (.tar.xz, extract to the root of your USB device's ext4 partition) <a href="/latest_full.tar.xz">here.</a>
 - Latest build's SD Card files (.tar.gz, extract to the root of your SD Card) <a href="/latest_sd_files.tar.gz">here.</a>
 
 Specialized (already included in the above)
