@@ -87,7 +87,7 @@ Developers
     - Gives Support
     - Some kernel development
     - Does most of the compiling
-<?php // TODO: Update the bwloe when/if it changes. ?>
+<?php // TODO: Update the below when/if it changes. ?>
     - Built essentially all of this website so far
 </pre>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
