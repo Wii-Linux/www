@@ -46,10 +46,12 @@ What works and works well:
 - Terminal graphics output in either 480i/480p
 - Booting from MINI
 - USB Gecko (serial console in GameCube memory card ports)
+- KGDB - Linux kernel deugger, works over USB Gecko
 - USB Keyboards
 - Using a portion of <a href=https://wiibrew.org/wiki/Memory_map>MEM2</a> to boost the total usable memory count from 24MB to 74MB
 - Swapping to any USB/SD disk to increase the total ""memory"" count to theoretically any number
 - Any USB 2.0, 1.1, or 1.0 device
+- Bluetooth using bluez
 
 What works if you ignore the obvious problems:
 - Anything that writes to /dev/fb0 [see <a href="/blog/12-30-2023_dev_fb0">why</a>]
@@ -65,7 +67,6 @@ What doesn't work at all:
 - Anything that uses Java (memory issues, refuses to swap)
 
 What's not known yet:
-- Bluetooth (needs bluez, just haven't gotten around to testing it yet)
 - Do all USB Hubs break, or is it just USB 3.0 based hubs?
     - Feel free to shoot us a message in our Discord server if you can test it!
 
