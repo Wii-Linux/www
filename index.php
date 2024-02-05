@@ -46,7 +46,7 @@ else {
 $file_path = $_SERVER['DOCUMENT_ROOT'] . '/site' . $file;
 if (file_exists($file_path)) {
 	global $type;
-	if ($type == "text/x-php") {
+	if ($type == "text/php") {
 		if (exec('grep \'<?\' '.$file_path)) {
 			try {
 				require $file_path;
