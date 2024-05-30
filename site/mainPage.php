@@ -76,11 +76,13 @@ Links
 - <a href="/installation_guide">Install Guide (TBD, ask Techflash until it's done!)</a>
 - <a href="/blog">Wii Linux developers blog</a>  See progress updates and generally what's going on here.
 - Latest build's rootfs (.tar.xz, extract to the root of your USB device's ext4 partition) <a href="/latest_full.tar.xz">here.</a>
-- Latest build's SD Card files (.tar.gz, extract to the root of your SD Card) <a href="/latest_sd_files.tar.gz">here.</a>
+- <b>NEW!</b> Latest build's (kernel 4.5.0) SD Card files (.tar.gz, extract to the root of your SD Card) <a href="/latest_4.5_sd_files.tar.gz">here.</a>
+- Latest build's (kernel 4.4.302) SD Card files (.tar.gz, extract to the root of your SD Card) <a href="/latest_sd_files.tar.gz">here.</a>
 
 Specialized (already included in the above)
 -----------
-- Latest build's kernel modules (.tar.gz, need these for Wi-Fi primarily, extract to USB root) <a href="/latest-modules.tar.gz">here.</a>
+- <b>NEW!</b> Latest build's kernel (4.5.0) modules (.tar.gz, need these for Wi-Fi primarily, extract to USB root) <a href="/latest_4.5_modules.tar.gz">here.</a>
+- Latest build's kernel (4.4.302) modules (.tar.gz, need these for Wi-Fi primarily, extract to USB root) <a href="/latest_modules.tar.gz">here.</a>
 - Wi-Fi Firmware (.tar.gz.  extract to the root of your USB disk) <a href="/openfwwf-5.2-bin.tar.gz">here.</a>  See the <a href="/openfwwf-5.2-LICENSE.txt">LICENSE</a>
 
 Developers
