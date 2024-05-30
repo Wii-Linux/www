@@ -23,6 +23,7 @@ function img($name) {
 		width: auto;
 	}
 </style>
+<?php globalHeadStuff(); ?>
 </head>
 <body>
 <pre>

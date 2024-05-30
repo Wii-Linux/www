@@ -31,6 +31,7 @@ uasort($metadata, function ($a, $b) {
 <html>
 <head>
 <title>Wii Linux Developers Blog</title>
+<?php globalHeadStuff(); ?>
 </head>
 <body>
 <pre>

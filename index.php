@@ -3,6 +3,9 @@ function do404() {
 	require $_SERVER['DOCUMENT_ROOT'] . '/404.php';
 	die();
 }
+function globalHeadStuff() {
+	echo '<meta name="viewport" content="width=device-width, initial-scale=1" />';
+}
 $isWii = false;
 if (strpos($_SERVER['HTTP_USER_AGENT'], 'Opera/9') !== false) {
 	$isWii = true;

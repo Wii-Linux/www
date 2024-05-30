@@ -23,6 +23,7 @@ include '___version.php'
 	if ($injectHead !== null) {
 		echo($injectHead);
 	}
+	globalHeadStuff();
 	?>
 </head>
 <body>
