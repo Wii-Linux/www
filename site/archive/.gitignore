@@ -1,0 +1,5 @@
+kernels/*.elf
+modules/*.tar*
+loaders/*.img
+rootfs/*.tar*
+sd-files/*.tar*

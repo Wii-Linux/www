@@ -1,17 +1,29 @@
 http://wii-linux.org https://wii-linux.org http://www.wii-linux.org https://www.wii-linux.org {
 	root * /srv/www/wii-linux.org
-	php_fastcgi unix//run/php-fpm.sock {
-		try_files /index.php
-	}
-
 	log {
 		level DEBUG
 	}
-	file_server
+	handle_path /archive* {
+		root * /srv/www/wii-linux.org/site/archive
+		file_server browse
+	}
+
+	handle_path /* {
+		php_fastcgi unix//run/php-fpm.sock {
+			try_files /index.php
+		}
+
+		file_server
+	}
 }
 
 http://packages.wii-linux.org https://packages.wii-linux.org {
 	root * /srv/www/packages
+
+	file_server browse
+}
+http://debian.packages.wii-linux.org https://debian.packages.wii-linux.org {
+	root * /srv/www/packages_other/debian
 
 	file_server browse
 }

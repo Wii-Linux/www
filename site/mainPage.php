@@ -76,15 +76,22 @@ Links
 - <a href="https://discord.com/invite/D9EBdRWzv2">Official Discord Server</a>
 - <a href="/installation_guide">Install Guide (TBD, ask Techflash until it's done!)</a>
 - <a href="/blog">Wii Linux developers blog</a>  See progress updates and generally what's going on here.
-- Latest build's rootfs (.tar.xz, extract to the root of your USB device's ext4 partition) <a href="/latest_full.tar.xz">here.</a>
-- <b>NEW!</b> Latest build's (kernel 4.5.0) SD Card files (.tar.gz, extract to the root of your SD Card) <a href="/latest_4.5_sd_files.tar.gz">here.</a>
-- Latest build's (kernel 4.4.302) SD Card files (.tar.gz, extract to the root of your SD Card) <a href="/latest_sd_files.tar.gz">here.</a>
+- Latest build's rootfs (.tar.xz, extract to the root of your SD/USB device's ext4 partition) <a href="/latest_full.tar.xz">here.</a>
+- Latest build's (kernel 4.5.0) SD Card files (.tar.gz, extract to the root of your SD Card's FAT32 partition) <a href="/latest_4.5_sd_files.tar.gz">here.</a>
 
 Specialized (already included in the above)
 -----------
-- <b>NEW!</b> Latest build's kernel (4.5.0) modules (.tar.gz, need these for Wi-Fi primarily, extract to USB root) <a href="/latest_4.5_modules.tar.gz">here.</a>
-- Latest build's kernel (4.4.302) modules (.tar.gz, need these for Wi-Fi primarily, extract to USB root) <a href="/latest_modules.tar.gz">here.</a>
+- Latest build's (kernel 4.5.0) loader.img (raw file, put in gumboot on your SD Card's FAT32 partition) <a href="/latest-loader-4.5.img">here.</a>
+- Latest build's kernel (4.5.0) modules (.tar.gz, need these for Wi-Fi primarily, extract to rootfs) <a href="/latest_4.5_modules.tar.gz">here.</a>
 - Wi-Fi Firmware (.tar.gz.  extract to the root of your USB disk) <a href="/openfwwf-5.2-bin.tar.gz">here.</a>  See the <a href="/openfwwf-5.2-LICENSE.txt">LICENSE</a>
+
+Legacy versions
+You shouldn't need these, but they are kept around for historical reasons
+--------------
+- Latest kernel 4.4.302 SD Card files (.tar.gz, extract to the root of your SD Card's FAT32 partition) <a href="/latest_4.4.302_sd_files.tar.gz">here.</a>
+- Latest kernel (4.4.302) modules (.tar.gz, need these for Wi-Fi primarily, extract to rootfs) <a href="/latest_4.4.302_modules.tar.gz">here.</a>
+- <a href="/archive">The archive</a> - really old versions, and superseded releases of the current versions
+
 
 Developers
 -----------
