@@ -99,10 +99,11 @@ Developers
     - Lead project organizer
     - Tester
     - Gives Support
-    - Some kernel development
+    - Most of the current kernel development
     - Does most of the compiling
 <?php // TODO: Update the below when/if it changes. ?>
     - Built essentially all of this website so far
+    - Got kernel 4.5.0 working
 </pre>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://techflash.wtf"><img src="/icons/web_32x32.png" alt="Globe icon"></a>
@@ -111,9 +112,9 @@ Developers
 <a href="https://youtube.com/techflashYT"><img src="/icons/youtube.png" alt="YouTube Icon"></a>
 <pre>
 - "TheOtherOne" / "ThatsItForTheOtherOne"
-    - Main kernel developer
-    - Hosts build tools
-    - Got kernel 4.x working in the first place
+    - Previously the main kernel developer
+    - Hosts docker container for build tools
+    - Got kernel 4.4.302 working in the first place
     - Very knowledgable about the inner workings of the Wii
 </pre>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -128,5 +129,19 @@ Developers
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://github.com/foxlet"><img <?img("github");?> alt="GitHub Icon"></a>
 <a href="https://codeberg.org/foxlet"><img <?img("codeberg");?> alt="Codeberg Icon"></a>
+
+
+<pre>
+Special thanks
+---------------
+- Owen Rummage / "n1xn0v4"
+    - Owner of <a href="https://nixlabs.dev">NixLabs</a>, the server provider we use
+    - Generously gives all hosting and compute space for free, as we are a sponsored project
+    - Helps out with the actual project work occasionally here and there
+    - Great friend
+</pre>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://rummage.cc"><img src="/icons/web_32x32.png" alt="Globe icon"></a>
+<a href="https://github.com/owenrummage"><img <?img("github");?> alt="GitHub Icon"></a>
 </body>
 </html>
