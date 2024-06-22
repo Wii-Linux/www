@@ -83,6 +83,7 @@ Specialized (already included in the above)
 -----------
 - Latest build's (kernel 4.5.0) loader.img (raw file, put in gumboot on your SD Card's FAT32 partition) <a href="/latest-loader-4.5.img">here.</a>
 - Latest build's kernel (4.5.0) modules (.tar.gz, need these for Wi-Fi primarily, extract to rootfs) <a href="/latest_4.5_modules.tar.gz">here.</a>
+- Latest build's raw kernel (4.5.0), put this as a file named v4_5_0.krn in the gumboot directory on your SD Card's FAT32 partition <a href="/latest-kernel_4.5.elf">here.</a>
 - Wi-Fi Firmware (.tar.gz.  extract to the root of your USB disk) <a href="/openfwwf-5.2-bin.tar.gz">here.</a>  See the <a href="/openfwwf-5.2-LICENSE.txt">LICENSE</a>
 
 Legacy versions
@@ -90,6 +91,7 @@ You shouldn't need these, but they are kept around for historical reasons
 --------------
 - Latest kernel 4.4.302 SD Card files (.tar.gz, extract to the root of your SD Card's FAT32 partition) <a href="/latest_4.4.302_sd_files.tar.gz">here.</a>
 - Latest kernel (4.4.302) modules (.tar.gz, need these for Wi-Fi primarily, extract to rootfs) <a href="/latest_4.4.302_modules.tar.gz">here.</a>
+- Latest build's raw kernel (4.4.302), put this as a file named v4_4_302.krn in the gumboot directory on your SD Card's FAT32 partition <a href="/latest-kernel_4.4.302.elf">here.</a>
 - <a href="/archive">The archive</a> - really old versions, and superseded releases of the current versions
 
 
