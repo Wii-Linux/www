@@ -6,3 +6,4 @@ latest-*kernel*.elf
 *sd[-,_]files*
 *kernel-src*
 *loader-4*
+*loader_dev*

@@ -86,6 +86,15 @@ Specialized (already included in the above)
 - Latest build's raw kernel (4.5.0), put this as a file named v4_5_0.krn in the gumboot directory on your SD Card's FAT32 partition <a href="/latest-kernel_4.5.elf">here.</a>
 - Wi-Fi Firmware (.tar.gz.  extract to the root of your USB disk) <a href="/openfwwf-5.2-bin.tar.gz">here.</a>  See the <a href="/openfwwf-5.2-LICENSE.txt">LICENSE</a>
 
+
+In-Development versions
+It's highlight likely that these versions will have serious problems.
+It's recommended to NOT use these.
+--------------
+- Latest build's (kernel 4.20.0) loader.img (raw file, put in gumboot on your SD Card's FAT32 partition) <a href="/latest-loader_dev.img">here.</a>
+- Latest build's kernel (4.20.0) modules (.tar.gz, need these for Wi-Fi primarily, extract to rootfs) <a href="/latest_dev_modules.tar.gz">here.</a>
+- Latest build's raw kernel (4.20.0), put this as a file named v4_20_0.krn in the gumboot directory on your SD Card's FAT32 partition <a href="/latest-kernel_dev.elf">here.</a>
+
 Legacy versions
 You shouldn't need these, but they are kept around for historical reasons
 --------------
