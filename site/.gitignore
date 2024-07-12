@@ -2,7 +2,7 @@ wii-linux-rootfs*.tar*
 *modules*.tar*
 *_full.tar*
 latest-configs.tar*
-latest-*kernel*.elf
+*kernel*.elf
 *sd[-,_]files*
 *kernel-src*
 *loader-4*
