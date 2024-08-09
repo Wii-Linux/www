@@ -6,4 +6,5 @@ latest-configs.tar*
 *sd[-,_]files*
 *kernel-src*
 *loader-4*
+*loader-v4*
 *loader_dev*
