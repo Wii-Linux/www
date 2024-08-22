@@ -28,7 +28,7 @@ uasort($metadata, function ($a, $b) {
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang=en>
 <head>
 <title>Wii Linux Developers Blog</title>
 <?php globalHeadStuff(); ?>

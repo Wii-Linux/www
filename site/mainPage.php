@@ -14,7 +14,7 @@ function img($name) {
 }
 ?>
 <!DOCTYPE html>
-<html>
+<html lang=en>
 <head>
 <style>
 	img {
@@ -24,6 +24,7 @@ function img($name) {
 	}
 </style>
 <?php globalHeadStuff(); ?>
+<title>Wii Linux</title>
 </head>
 <body>
 <pre>
@@ -42,7 +43,7 @@ What works and works well:
 - Booting to a command line
 - Running various command line apps
 - Wi-Fi
-- USB Storage
+- USB
 - SD Cards
 - Terminal graphics output in either 480i/480p
 - Booting from MINI
@@ -51,25 +52,21 @@ What works and works well:
 - USB Keyboards
 - Using a portion of <a href=https://wiibrew.org/wiki/Memory_map>MEM2</a> to boost the total usable memory count from 24MB to 74MB
 - Swapping to any USB/SD disk to increase the total ""memory"" count to theoretically any number
-- Any USB 2.0, 1.1, or 1.0 device
 - Bluetooth using bluez
+- The framebuffer
+- Xorg
 
 What works if you ignore the obvious problems:
-- Anything that writes to /dev/fb0 [see <a href="/blog/12-30-2023_dev_fb0">why</a>]
-- Xorg (graphical output) [it writes to /dev/fb0]
-- USB Mice [only useful for Xorg]
-- Theoretically any Xorg app if you can put up with the colors
-- any USB 3.0 device [see <a href="/blog/12-30-2023_usb_3_0">why</a>]
-- USB (3.0 only??) Hubs 
+- Booting from HBC (Homebrew Channel) under Starlet IOS
 
 What doesn't work at all:
-- Booting from HBC (Homebrew Channel) under Starlet IOS
-- Anything that depends on Starlet, such as the disk drive
-- Anything that uses Java (memory issues, refuses to swap)
+- The DVD driver
+- Anything that uses Java (memory issues, refuses to swap, but in fact now it crashes)
 
 What's not known yet:
-- Do all USB Hubs break, or is it just USB 3.0 based hubs?
-    - Feel free to shoot us a message in our Discord server if you can test it!
+- When did IOS-based SD Card support break?
+- Does the gamecube_defconfig work on the GameCube?
+- Does a Wii build work on the Wii U's vWii?
 
 Links
 -----------

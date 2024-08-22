@@ -5,6 +5,7 @@ function do404() {
 }
 function globalHeadStuff() {
 	echo '<meta name="viewport" content="width=device-width, initial-scale=1" />';
+	echo '<meta name="description" content="Small project dedicated to getting modern Linux running on the Nintnendo Wii and GameCube" />';
 }
 $isWii = false;
 if (strpos($_SERVER['HTTP_USER_AGENT'], 'Opera/9') !== false) {
