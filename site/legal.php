@@ -36,6 +36,6 @@ Trademakrs / disclaimers
 "Wii" is a registered trademark of Nintendo of America Inc.
 "Linux®" is the registered trademark of Linus Torvalds in the U.S. and other countries.
 The Wii Linux project has no association with, and is not endorsed by Nintendo of America Inc.
-The Wii Linux project has no assocation with, and is not endoresed by Linus Torvalds or the Linux Foundation.
+The Wii Linux project has no association with, and is not endorsed by Linus Torvalds or the Linux Foundation.
 </pre>
 
