@@ -4,10 +4,13 @@ function do404() {
 	die();
 }
 function globalHeadStuff() {
+	global $isHTML;
+	$isHTML = true;
 	echo '<meta name="viewport" content="width=device-width, initial-scale=1" />';
 	echo '<meta name="description" content="Small project dedicated to getting modern Linux running on the Nintnendo Wii and GameCube" />';
 }
 $isWii = false;
+$isHTML = false;
 if (strpos($_SERVER['HTTP_USER_AGENT'], 'Opera/9') !== false) {
 	$isWii = true;
 }
@@ -54,6 +57,10 @@ if (file_exists($file_path)) {
 		if (exec('grep \'<?\' '.$file_path)) {
 			try {
 				require $file_path;
+				if ($isHTML) {
+					require $_SERVER['DOCUMENT_ROOT'] . '/page_footer.php';
+				}
+
 			}
 			catch (Exception $e) {
 				// Display 500.php on any exception

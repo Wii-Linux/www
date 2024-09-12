@@ -46,5 +46,3 @@ foreach ($metadata as $file => $data) {
 ?>
 
 </pre>
-</body>
-</html>

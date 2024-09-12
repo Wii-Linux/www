@@ -46,4 +46,6 @@ Embedding *old* flash media player to attempt to get something to play.
 <br><br><br>
 <?php
 }
+require '___footer.php'
 ?>
+

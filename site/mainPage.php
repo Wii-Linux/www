@@ -151,5 +151,3 @@ Special thanks
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://rummage.cc"><img src="/icons/web_32x32.png" alt="Globe icon"></a>
 <a href="https://github.com/owenrummage"><img <?img("github");?> alt="GitHub Icon"></a>
-</body>
-</html>
