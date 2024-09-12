@@ -1,7 +1,7 @@
 <hr>
 <p align="center" style="font-family: monospace">
-© Copyright 2024 Techflash<br>
-See <a href="/legal">legal disclaimers</a>
+© Copyright 2024 Techflash.  Some rights reserved<br>
+See <a href="/legal">legal disclaimers, privacy policy, copyright, and trademark notices</a>
 </p>
 </body>
 </html>

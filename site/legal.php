@@ -14,7 +14,7 @@ $showLegal = false;
 Wii Linux - Legal
 -----------------
 <a href="/">Back to main page</a>
-Wii Linux Website - © Copyright 2024 Techflash
+Wii Linux Website - © Copyright 2024 Techflash.  Some rights reserved.
 This website's source code (PHP) is available under the GNU General Public License, version 2.0.
 This website's content (text, images, video, etc) is available under the Creative Commons "CC BY-NC-SA" license.
 
@@ -34,7 +34,7 @@ and for identifying the most used locations on the site, and are never sold to a
 Trademakrs / disclaimers
 ------------------------
 "Wii" is a registered trademark of Nintendo of America Inc.
-"Linux" is a registered trademark of Linus Torvalds.
+"Linux®" is the registered trademark of Linus Torvalds in the U.S. and other countries.
 The Wii Linux project has no association with, and is not endorsed by Nintendo of America Inc.
 The Wii Linux project has no assocation with, and is not endoresed by Linus Torvalds or the Linux Foundation.
 </pre>
