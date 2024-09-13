@@ -114,7 +114,7 @@ Developers
     - Got kernel 4.5.0 working
 </pre>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://techflash.wtf"><img src="/icons/web_32x32.png" alt="Globe icon"></a>
+<a href="https://techflash.site"><img src="/icons/web_32x32.png" alt="Globe icon"></a>
 <a href="https://github.com/techflashYT"><img <?img("github");?> alt="GitHub Icon"></a>
 <a href="https://discord.com/invite/FnseMDFBH6"><img <?php img("discord"); ?> alt="Discord icon"></a>
 <a href="https://youtube.com/techflashYT"><img src="/icons/youtube.png" alt="YouTube Icon"></a>
