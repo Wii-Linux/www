@@ -73,6 +73,7 @@ Links
 - <a href="https://discord.com/invite/D9EBdRWzv2">Official Discord Server</a>
 - <a href="/installation_guide">Install Guide (TBD, ask Techflash until it's done!)</a>
 - <a href="/blog">Wii Linux developers blog</a>  See progress updates and generally what's going on here.
+- <a href="/kernel-docs.zip">Linux 4.5 Documentation (HTML)</a>, built, and then assembled as a ZIP archive.
 - Latest build's rootfs (.tar.xz, extract to the root of your SD/USB device's ext4 partition) <a href="/latest_full.tar.xz">here.</a>
 - Latest build's (kernel 4.5.0) SD Card files (.tar.gz, extract to the root of your SD Card's FAT32 partition) <a href="/latest_4.5_sd_files.tar.gz">here.</a>
 
