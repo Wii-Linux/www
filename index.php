@@ -28,9 +28,18 @@ elseif (!preg_match('/\./', $request) || substr($request, -1) == '/') {
 	if (file_exists($_SERVER['DOCUMENT_ROOT'] . '/site' . $request . '/index.php')) {
 		$file = $request . '/index.php';
 	}
-	else {
+	elseif (file_exists($_SERVER['DOCUMENT_ROOT'] . '/site' . $request . '.php')) {
 		$file = $request . '.php';
 	}
+	elseif (file_exists($_SERVER['DOCUMENT_ROOT'] . '/site' . $request . '/index.html')) {
+		$file = $request . '/index.html';
+		$type = "text/html";
+	}
+	else {
+		header("Content-Type: text/html");
+		do_404();
+	}
+
 }
 else {
 	// Request for any other type of file
