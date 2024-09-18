@@ -37,7 +37,7 @@ elseif (!preg_match('/\./', $request) || substr($request, -1) == '/') {
 	}
 	else {
 		header("Content-Type: text/html");
-		do_404();
+		do404();
 	}
 
 }
