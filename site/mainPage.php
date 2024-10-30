@@ -76,6 +76,7 @@ Links
 - <a href="/blog">Wii Linux developers blog</a>  See progress updates and generally what's going on here.
 - <a href="/kernel-docs.zip">Linux 4.5 Documentation (HTML)</a>, built, and then assembled as a ZIP archive.
 - <b>NEW!</b> Latest build's ArchPOWER rootfs (.tar.gz, extract to the root of your SD/USB device's ext4 partition) <a href="/files/wii_linux_rootfs_archpower-latest.tar.gz">here.</a>
+- <b>NEW!</b> Latest build's ArchPOWER rootfs (.img, flash to your SD/USB device's ext4 partition, then resize2fs expand the fs to the partition size) <a href="/files/wii_linux_rootfs_archpower-latest.img.gz">here.</a>
 - <b>NEW!</b> Latest build's ArchPOWER SD Card files (.tar.gz, extract to the root of your SD Card's FAT32 partition) <a href="/files/wii_linux_sd_files_archpower-latest.tar.gz">here.</a>
 
 Specialized (already included in the above)
