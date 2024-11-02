@@ -40,20 +40,20 @@ if ($isWii) {
 It's Linux on the Wii, but it's actually modern, and (soon) works well!
 
 What works and works well:
-- Booting to a command line
-- Running various command line apps
-- Wi-Fi
-- USB
-- SD Cards
-- Terminal graphics output in either 480i/480p
-- Booting from MINI
-- USB Gecko (serial console in GameCube memory card ports)
-- USB Keyboards
-- Using a portion of <a href=https://wiibrew.org/wiki/Memory_map>MEM2</a> to boost the total usable memory count from 24MB to 74MB
-- Swapping to any USB/SD disk to increase the total ""memory"" count to theoretically any number
-- Bluetooth using bluez
-- The framebuffer
-- Xorg
+- Booting
+  - Booting properly to a getty or display-manager
+  - Booting from the <a href=https://wiibrew.org/wiki/MINI>MINI</a> firmware replacement for the <a href=https://wiibrew.org/wiki/MINI>Starlet co-processor</a>
+- Hardware
+  - Using a portion of <a href=https://wiibrew.org/wiki/Memory_map>MEM2</a> to boost the total usable memory count from 24MB to ~72MB
+  - Internal Broadcom 4318 Wi-Fi
+  - Bluetooth using bluez
+  - USB ports, hubs, and devices
+  - SD Cards
+  - USB Gecko (serial console in GameCube memory card ports)
+  - Graphics output, in either 480i or 480p, using either the Linux VT, or anything that writes to /dev/fb0 (e.g. Xorg)
+  - Swapping to SD Card or USB device
+- App support
+  - Most applications that you would want to use - anything in ArchPOWER officially, including handpicked extras on my own repo.
 
 What works if you ignore the obvious problems:
 - Booting from HBC (Homebrew Channel) under Starlet IOS
@@ -62,7 +62,7 @@ What works if you ignore the obvious problems:
 What doesn't work at all:
 - The DVD driver
 - Wayland support (requires a Direct Rendering Manager / "DRM" driver for the Wii's GPU)
-- KGDB - Linux kernel deugger, works over USB Gecko (previously worked)
+- KGDB - Linux kernel deugger, works over USB Gecko (previously worked, but the driver I previously used is no longer present in 4.5)
 
 What's not known yet:
 - When did IOS-based SD Card support break?
