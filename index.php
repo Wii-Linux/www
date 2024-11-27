@@ -3,6 +3,20 @@ function do404() {
 	require $_SERVER['DOCUMENT_ROOT'] . '/404.php';
 	die();
 }
+
+function img($name) {
+	global $isWii;
+	// workaround for Wii's stupid internet channel
+	echo("src=\"/icons/");
+	if ($isWii) {
+		echo($name . "_32x32.png");
+	}
+	else {
+		echo("$name.svg");
+	}
+	echo("\"");
+}
+
 function globalHeadStuff() {
 	global $isHTML;
 	$isHTML = true;
