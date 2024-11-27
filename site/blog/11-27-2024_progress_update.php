@@ -1,6 +1,6 @@
 <?php
 $title = "Progress update";
-$date = "November 27, 2024";
+$date = "Nov 27, 2024";
 $author = "Techflash";
 require "___header.php";
 global $noLoad;
