@@ -18,10 +18,9 @@ Wii Linux - Downloads
 <a href="/">Back to main page</a>
 You can refer to the <a href="https://wiki.wii-linux.org/wiki/Installation_Guide">Installation Guide</a> to install these.
 
-- <a href="/kernel-docs.zip">Linux 4.5 Documentation (HTML)</a>, built, and then assembled as a ZIP archive.
-- <b>NEW!</b> Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER rootfs (.tar.gz, extract to the root of your SD/USB device's ext4 partition) <a href="/files/wii_linux_rootfs_archpower-latest.tar.gz">here.</a>
-- <b>NEW!</b> Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER rootfs (.img, flash to your SD/USB device's ext4 partition, then resize2fs expand the fs to the partition size) <a href="/files/wii_linux_rootfs_archpower-latest.img.gz">here.</a>
-- <b>NEW!</b> Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER SD Card files (.tar.gz, extract to the root of your SD Card's FAT32 partition) <a href="/files/wii_linux_sd_files_archpower-latest.tar.gz">here.</a>
+- Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER rootfs (.tar.gz, extract to the root of your SD/USB device's ext4 partition) <a href="/files/wii_linux_rootfs_archpower-latest.tar.gz">here.</a>
+- Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER rootfs (.img, flash to your SD/USB device's ext4 partition, then resize2fs expand the fs to the partition size) <a href="/files/wii_linux_rootfs_archpower-latest.img.gz">here.</a>
+- Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER SD Card files (.tar.gz, extract to the root of your SD Card's FAT32 partition) <a href="/files/wii_linux_sd_files_archpower-latest.tar.gz">here.</a>
 
 
 Specialized (already included in the above)
@@ -30,6 +29,7 @@ Specialized (already included in the above)
 - Latest build's kernel (4.5.0) modules (.tar.gz, need these for Wi-Fi primarily, extract to rootfs) <a href="/files/wii_linux_modules_v4_5_0-latest.tar.gz">here.</a>
 - Latest build's raw kernel (4.5.0), put this as a file named v4_5_0.krn in the wiilinux directory on your SD Card's FAT32 partition <a href="/files/wii_linux_kernel_v4_5_0-latest.elf">here.</a>
 - Wi-Fi Firmware (.tar.gz.  extract to the root of your USB disk) <a href="/openfwwf-5.2-bin.tar.gz">here.</a>  See the <a href="/openfwwf-5.2-LICENSE.txt">LICENSE</a>
+- <a href="/kernel-docs.zip">Linux 4.5 Documentation (HTML)</a>, built, and then assembled as a ZIP archive.
 
 
 In-Development versions
