@@ -16,7 +16,7 @@
 Wii Linux - Downloads
 ---------------------
 <a href="/">Back to main page</a>
-You can refer to the <a href="https://wiki.wii-linux.org/wiki/Installation_Guide">Installation Guide</a> to install these.
+<b>You can refer to the <a href="https://wiki.wii-linux.org/wiki/Installation_Guide">Installation Guide</a> to install these.</b>
 
 - Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER rootfs (.tar.gz, extract to the root of your SD/USB device's ext4 partition) <a href="/files/wii_linux_rootfs_archpower-latest.tar.gz">here.</a>
 - Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER rootfs (.img, flash to your SD/USB device's ext4 partition, then resize2fs expand the fs to the partition size) <a href="/files/wii_linux_rootfs_archpower-latest.img.gz">here.</a>
