@@ -18,9 +18,17 @@ Wii Linux - Downloads
 <a href="/">Back to main page</a>
 <b>You can refer to the <a href="https://wiki.wii-linux.org/wiki/Installation_Guide">Installation Guide</a> to install these.</b>
 
-- Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER rootfs (.tar.gz, extract to the root of your SD/USB device's ext4 partition) <a href="/files/wii_linux_rootfs_archpower-latest.tar.gz">here.</a>
-- Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER rootfs (.img, flash to your SD/USB device's ext4 partition, then resize2fs expand the fs to the partition size) <a href="/files/wii_linux_rootfs_archpower-latest.img.gz">here.</a>
-- Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER SD Card files (.tar.gz, extract to the root of your SD Card's FAT32 partition) <a href="/files/wii_linux_sd_files_archpower-latest.tar.gz">here.</a>
+- Flashable images
+  For use with Linux `dd`, Balena Etcher on Windows/Linux, etc
+  Any disk image flasher should work.
+  - <b>(Recommended)</b> Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER SD Card image (.img, flash to your SD card directly) <a href="/files/wii_linux_rootfs_archpower-latest.img.gz">here.</a>
+  - Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER rootfs (.img, flash to your SD/USB device's ext4 partition) <a href="/files/wii_linux_rootfs_archpower-latest.img.gz">here.</a>
+
+- Tarballs / Archives
+  Requires installation via Linux on a PC
+  - Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER rootfs (.tar.gz, extract to the root of your SD/USB device's ext4 partition) <a href="/files/wii_linux_rootfs_archpower-latest.tar.gz">here.</a>
+  - Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER SD Card files (.tar.gz, extract to the root of your SD Card's FAT32 partition) <a href="/files/wii_linux_sd_files_archpower-latest.tar.gz">here.</a>
+  - Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER SD Card files (.zip, extract to the root of your SD Card's FAT32 partition) <a href="/files/wii_linux_sd_files_archpower-latest.zip">here.</a>
 
 
 Specialized (already included in the above)
