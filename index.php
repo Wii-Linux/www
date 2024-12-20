@@ -21,7 +21,7 @@ function globalHeadStuff() {
 	global $isHTML;
 	$isHTML = true;
 	echo '<meta name="viewport" content="width=device-width, initial-scale=1" />';
-	echo '<meta name="description" content="Small project dedicated to getting modern Linux running on the Nintnendo Wii and GameCube" />';
+	echo '<meta name="description" content="Small project dedicated to getting modern Linux running on the Nintendo Wii and GameCube" />';
 }
 $isWii = false;
 $isHTML = false;
