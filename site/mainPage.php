@@ -21,6 +21,10 @@ global $isWii;
 if ($isWii) {
 	echo("Hello fellow Wii user!\r\nI hope you appreciate all of the work that I've done to get this working properly\r\non the Wii's Opera 9.0 Internet Channel.\r\n(Yes, I can detect that you are visiting from a Wii.  If this is a false-positive,\r\nplease let me know and I will do my best to fix it!)\r\n\r\n");
 }
+
+if ($oldBrowser) {
+	echo("Legacy browser detected, compatibility fixes applied!\r\n\r\n");
+}
 ?>
 It's Linux on the Wii, but it's actually modern, and (soon) works well!
 

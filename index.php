@@ -5,10 +5,10 @@ function do404() {
 }
 
 function img($name) {
-	global $isWii;
-	// workaround for Wii's stupid internet channel
+	global $oldBrowser;
+	// workaround for old browsers
 	echo("src=\"/icons/");
-	if ($isWii) {
+	if ($oldBrowser) {
 		echo($name . "_32x32.png");
 	}
 	else {
@@ -23,10 +23,30 @@ function globalHeadStuff() {
 	echo '<meta name="viewport" content="width=device-width, initial-scale=1" />';
 	echo '<meta name="description" content="Small project dedicated to getting modern Linux running on the Nintendo Wii and GameCube" />';
 }
+
+function uaContains($search) {
+	return strpos($_SERVER['HTTP_USER_AGENT'], $search) !== false;
+}
+
 $isWii = false;
 $isHTML = false;
-if (strpos($_SERVER['HTTP_USER_AGENT'], 'Opera/9') !== false) {
-	$isWii = true;
+$oldBrowser = false;
+
+// Old version of Opera
+if (uaContains('Opera/9.')) {
+	// Wii Internet Channel
+	if (uaContains('Nintendo Wii')) $isWii = true;
+	$oldBrowser = true;
+}
+
+// Old version of Internet Explorer
+if (uaContains('MSIE')) {
+	$oldBrowser = true;
+}
+
+// Old version of Mozilla (pre-Firefox), or Netscape
+if (uaContains('Mozilla/') && !uaContains('Mozilla/5.0')) {
+	$oldBrowser = true;
 }
 $request = $_SERVER['REQUEST_URI'];
 $request = strtok($request, '?');
