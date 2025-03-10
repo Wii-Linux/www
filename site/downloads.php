@@ -18,6 +18,12 @@ Wii Linux - Downloads
 <a href="/">Back to main page</a>
 <b>You can refer to the <a href="https://wiki.wii-linux.org/wiki/Installation_Guide">Installation Guide</a> to install these.</b>
 
+Tier 1 Distros
+--------------
+These are distros that have the full support of the Wii-Linux team.  Custom packages are created, and you should get kernel and loader updates from here.
+They are verified to work reasonably well on the Wii's limited hardware, and get modern updates.  Automatic tarball and image creation is supported.
+You will recieve support for using these distros.
+
 - Flashable images
   For use with Linux `dd`, Balena Etcher on Windows/Linux, etc
   Any disk image flasher should work.
@@ -31,8 +37,33 @@ Wii Linux - Downloads
   - Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER SD Card files (.zip, extract to the root of your SD Card's FAT32 partition) <a href="/files/wii_linux_sd_files_archpower-latest.zip">here.</a>
 
 
-Specialized (already included in the above)
--------------------------------------------
+Tier 2 Distros
+--------------
+These distros are verified to at least function properly, but might have some issues, notably, it may not have custom apps packaged,
+it may run poorly, it may not get updates anymore, and it may not have automatic image creation scripts.  You will recieve limited support
+for using these distros.  The support team may choose to reject a support request due to it being too much hassle on these lower-quality distros.
+
+- Tarballs / Archives
+  Requires installation via Linux on a PC
+  - Latest build's <img <?img("fedora");?> alt="Fedora Linux Icon"> Fedora 20 rootfs (.tar.gz, extract to the root of your SD/USB device's ext4 partition) <a href="/files/wii_linux_rootfs_fedora_20-latest.tar.gz">here.</a>
+  - Latest build's <img <?img("fedora");?> alt="Fedora Linux Icon"> Fedora 20 SD Card files (.tar.gz, extract to the root of your SD Card's FAT32 partition) <a href="/files/wii_linux_sd_files_fedora_20-latest.tar.gz">here.</a>
+  - Latest build's <img <?img("fedora");?> alt="Fedora Linux Icon"> Fedora 20 SD Card files (.zip, extract to the root of your SD Card's FAT32 partition) <a href="/files/wii_linux_sd_files_fedora_20-latest.zip">here.</a>
+
+
+Tier 3 Distros
+--------------
+The graveyard.  These distros are completely abandoned, broken, or worse.  They are provided for historical purposes only, and should not
+be used under any circumstances.  You will recieve minimal support for getting these distros to boot, are not garuanteed anything else.
+
+- Tarballs / Archives
+  Requires installation via Linux on a PC
+  - Latest build's <img <?img("void");?> alt="Void Linux Icon"> Void-PPC rootfs (.tar.xz, extract to the root of your SD/USB device's ext4 partition) <a href="/files/wii_linux_rootfs_void_ppc-latest.tar.xz">here.</a>
+  - Latest build's <img <?img("void");?> alt="Void Linux Icon"> Void-PPC SD Card files (.tar.gz, extract to the root of your SD Card's FAT32 partition) <a href="/files/wii_linux_sd_files_fedora_20-latest.tar.gz">here.</a>
+
+Non-Distro Downloads
+--------------------
+Various bits and pieces, mainly for developers looking to create their own distro.
+
 - Latest build's (kernel 4.5.0) loader.img (raw file, put in wiilinux on your SD Card's FAT32 partition) <a href="/files/wii_linux_loader_v4_5_0-latest.img">here.</a>
 - Latest build's kernel (4.5.0) modules (.tar.gz, need these for Wi-Fi primarily, extract to rootfs) <a href="/files/wii_linux_modules_v4_5_0-latest.tar.gz">here.</a>
 - Latest build's raw kernel (4.5.0), put this as a file named v4_5_0.krn in the wiilinux directory on your SD Card's FAT32 partition <a href="/files/wii_linux_kernel_v4_5_0-latest.elf">here.</a>
