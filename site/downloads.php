@@ -58,7 +58,7 @@ be used under any circumstances.  You will recieve minimal support for getting t
 - Tarballs / Archives
   Requires installation via Linux on a PC
   - Latest build's <img <?img("void");?> alt="Void Linux Icon"> Void-PPC rootfs (.tar.xz, extract to the root of your SD/USB device's ext4 partition) <a href="/files/wii_linux_rootfs_void_ppc-latest.tar.xz">here.</a>
-  - Latest build's <img <?img("void");?> alt="Void Linux Icon"> Void-PPC SD Card files (.tar.gz, extract to the root of your SD Card's FAT32 partition) <a href="/files/wii_linux_sd_files_fedora_20-latest.tar.gz">here.</a>
+  - Latest build's <img <?img("void");?> alt="Void Linux Icon"> Void-PPC SD Card files (.tar.gz, extract to the root of your SD Card's FAT32 partition) <a href="/files/wii_linux_sd_files_void_ppc-latest.tar.gz">here.</a>
 
 Non-Distro Downloads
 --------------------
@@ -80,6 +80,6 @@ It's recommended to NOT use these.
 Legacy versions
 You shouldn't need these, but they are kept around for historical reasons
 --------------
-- <a href="/archive">The archive</a> - really old versions, and superseded releases of the current versions
+- <a href="/files/archive">The archive</a> - really old versions, and superseded releases of the current versions
 - <a href="https://archive.org/details/wii-linux-backup_202409">archive #1</a> of old pre-server-crash releases of Wii Linux - by Selim
 - <a href="http://pretzels.onthewifi.com/files/wii_linux/">archive #2</a> of old pre-server-crash releases of Wii Linux - by Tech64
