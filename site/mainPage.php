@@ -52,11 +52,11 @@ What doesn't work at all:
 - The DVD driver
 - Wayland support (requires a Direct Rendering Manager / "DRM" driver for the Wii's GPU)
 - KGDB - Linux kernel deugger, works over USB Gecko (previously worked, but the driver I previously used is no longer present in 4.5)
+- Running under the vWii (it can't use BootMii/MINI)
 
 What's not known yet:
 - When did IOS-based SD Card support break?
 - Does the gamecube_defconfig work on the GameCube?
-- Does a Wii build work on the Wii U's vWii?
 
 Links
 -----
