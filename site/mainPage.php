@@ -45,17 +45,16 @@ What works and works well:
   - Most applications that you would want to use - anything in ArchPOWER officially, including handpicked extras on my own repo.
 
 What works if you ignore the obvious problems:
-- Booting from HBC (Homebrew Channel) under Starlet IOS
 - Anything that uses Java (memory issues, and INCREDIBLY slow)
+- The DVD driver (can see discs, can't do much with them)
 
 What doesn't work at all:
-- The DVD driver
 - Wayland support (requires a Direct Rendering Manager / "DRM" driver for the Wii's GPU)
-- KGDB - Linux kernel deugger, works over USB Gecko (previously worked, but the driver I previously used is no longer present in 4.5)
+- KGDB - Linux kernel deugger, works over USB Gecko (previously worked, but the driver I previously used is no longer present in 4.5 or newer)
 - Running under the vWii (it can't use BootMii/MINI)
+- Booting from HBC (Homebrew Channel) under IOS (such kernels have been broken seemingly since they were introduced)
 
 What's not known yet:
-- When did IOS-based SD Card support break?
 - Does the gamecube_defconfig work on the GameCube?
 
 Links
