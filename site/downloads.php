@@ -64,6 +64,9 @@ Non-Distro Downloads
 --------------------
 Various bits and pieces, mainly for developers looking to create their own distro.
 
+- Latest build's (kernel 4.19.325) loader.img <a href="/files/wii_linux_loader_v4_19_325-latest.img">here.</a>
+- Latest build's kernel (4.19.325) modules (.tar.gz) <a href="/files/wii_linux_modules_v4_19_325-latest.tar.gz">here.</a>
+- Latest build's kernel (4.19.325) binary <a href="/files/wii_linux_kernel_v4_19_325-latest.elf">here.</a>
 - Latest build's (kernel 4.5.0) loader.img <a href="/files/wii_linux_loader_v4_5_0-latest.img">here.</a>
 - Latest build's kernel (4.5.0) modules (.tar.gz) <a href="/files/wii_linux_modules_v4_5_0-latest.tar.gz">here.</a>
 - Latest build's kernel (4.5.0) binary <a href="/files/wii_linux_kernel_v4_5_0-latest.elf">here.</a>
