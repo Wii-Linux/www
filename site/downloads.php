@@ -27,14 +27,14 @@ You will recieve support for using these distros.
 - Flashable images
   For use with Linux `dd`, Balena Etcher on Windows/Linux, etc
   Any disk image flasher should work.
-  - <b>(Recommended)</b> Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER SD Card image (.img.gz, decompress, then flash to your SD card directly) <a href="/files/wii_linux_full_sd_archpower-latest.img.gz">here.</a>
-  - Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER rootfs (.img.gz, decompress, then flash to your SD/USB device's ext4 partition) <a href="/files/wii_linux_rootfs_archpower-latest.img.gz">here.</a>
+  - <b>(Recommended)</b> Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER SD Card image (.img.gz) <a href="/files/wii_linux_full_sd_archpower-latest.img.gz">here.</a>
+  - Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER rootfs (.img.gz) <a href="/files/wii_linux_rootfs_archpower-latest.img.gz">here.</a>
 
 - Tarballs / Archives
   Requires installation via Linux on a PC
-  - Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER rootfs (.tar.gz, extract to the root of your SD/USB device's ext4 partition) <a href="/files/wii_linux_rootfs_archpower-latest.tar.gz">here.</a>
-  - Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER SD Card files (.tar.gz, extract to the root of your SD Card's FAT32 partition) <a href="/files/wii_linux_sd_files_archpower-latest.tar.gz">here.</a>
-  - Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER SD Card files (.zip, extract to the root of your SD Card's FAT32 partition) <a href="/files/wii_linux_sd_files_archpower-latest.zip">here.</a>
+  - Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER rootfs (.tar.gz) <a href="/files/wii_linux_rootfs_archpower-latest.tar.gz">here.</a>
+  - Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER SD Card files (.tar.gz) <a href="/files/wii_linux_sd_files_archpower-latest.tar.gz">here.</a>
+  - Latest build's <img <?img("arch");?> alt="Arch Linux Icon"> ArchPOWER SD Card files (.zip) <a href="/files/wii_linux_sd_files_archpower-latest.zip">here.</a>
 
 
 Tier 2 Distros
@@ -45,9 +45,9 @@ for using these distros.  The support team may choose to reject a support reques
 
 - Tarballs / Archives
   Requires installation via Linux on a PC
-  - Latest build's <img <?img("fedora");?> alt="Fedora Linux Icon"> Fedora 20 rootfs (.tar.gz, extract to the root of your SD/USB device's ext4 partition) <a href="/files/wii_linux_rootfs_fedora_20-latest.tar.gz">here.</a>
-  - Latest build's <img <?img("fedora");?> alt="Fedora Linux Icon"> Fedora 20 SD Card files (.tar.gz, extract to the root of your SD Card's FAT32 partition) <a href="/files/wii_linux_sd_files_fedora_20-latest.tar.gz">here.</a>
-  - Latest build's <img <?img("fedora");?> alt="Fedora Linux Icon"> Fedora 20 SD Card files (.zip, extract to the root of your SD Card's FAT32 partition) <a href="/files/wii_linux_sd_files_fedora_20-latest.zip">here.</a>
+  - Latest build's <img <?img("fedora");?> alt="Fedora Linux Icon"> Fedora 20 rootfs (.tar.gz) <a href="/files/wii_linux_rootfs_fedora_20-latest.tar.gz">here.</a>
+  - Latest build's <img <?img("fedora");?> alt="Fedora Linux Icon"> Fedora 20 SD Card files (.tar.gz) <a href="/files/wii_linux_sd_files_fedora_20-latest.tar.gz">here.</a>
+  - Latest build's <img <?img("fedora");?> alt="Fedora Linux Icon"> Fedora 20 SD Card files (.zip) <a href="/files/wii_linux_sd_files_fedora_20-latest.zip">here.</a>
 
 
 Tier 3 Distros
@@ -57,16 +57,16 @@ be used under any circumstances.  You will recieve minimal support for getting t
 
 - Tarballs / Archives
   Requires installation via Linux on a PC
-  - Latest build's <img <?img("void");?> alt="Void Linux Icon"> Void-PPC rootfs (.tar.xz, extract to the root of your SD/USB device's ext4 partition) <a href="/files/wii_linux_rootfs_void_ppc-latest.tar.xz">here.</a>
-  - Latest build's <img <?img("void");?> alt="Void Linux Icon"> Void-PPC SD Card files (.tar.gz, extract to the root of your SD Card's FAT32 partition) <a href="/files/wii_linux_sd_files_void_ppc-latest.tar.gz">here.</a>
+  - Latest build's <img <?img("void");?> alt="Void Linux Icon"> Void-PPC rootfs (.tar.xz) <a href="/files/wii_linux_rootfs_void_ppc-latest.tar.xz">here.</a>
+  - Latest build's <img <?img("void");?> alt="Void Linux Icon"> Void-PPC SD Card files (.tar.gz) <a href="/files/wii_linux_sd_files_void_ppc-latest.tar.gz">here.</a>
 
 Non-Distro Downloads
 --------------------
 Various bits and pieces, mainly for developers looking to create their own distro.
 
-- Latest build's (kernel 4.5.0) loader.img (raw file, put in wiilinux on your SD Card's FAT32 partition) <a href="/files/wii_linux_loader_v4_5_0-latest.img">here.</a>
-- Latest build's kernel (4.5.0) modules (.tar.gz, need these for Wi-Fi primarily, extract to rootfs) <a href="/files/wii_linux_modules_v4_5_0-latest.tar.gz">here.</a>
-- Latest build's raw kernel (4.5.0), put this as a file named v4_5_0.krn in the wiilinux directory on your SD Card's FAT32 partition <a href="/files/wii_linux_kernel_v4_5_0-latest.elf">here.</a>
+- Latest build's (kernel 4.5.0) loader.img <a href="/files/wii_linux_loader_v4_5_0-latest.img">here.</a>
+- Latest build's kernel (4.5.0) modules (.tar.gz) <a href="/files/wii_linux_modules_v4_5_0-latest.tar.gz">here.</a>
+- Latest build's kernel (4.5.0) binary <a href="/files/wii_linux_kernel_v4_5_0-latest.elf">here.</a>
 - Wi-Fi Firmware (.tar.gz.  extract to the root of your USB disk) <a href="/openfwwf-5.2-bin.tar.gz">here.</a>  See the <a href="/openfwwf-5.2-LICENSE.txt">LICENSE</a>
 - <a href="/kernel-docs.zip">Linux 4.5 Documentation (HTML)</a>, built, and then assembled as a ZIP archive.
 
@@ -75,7 +75,7 @@ In-Development versions
 It's highlight likely that these versions will have serious problems.
 It's recommended to NOT use these.
 -----------------------
-- None for now!  Check back later!
+See testing files <a href="/files/testing">here.</a>
 
 Legacy versions
 You shouldn't need these, but they are kept around for historical reasons
