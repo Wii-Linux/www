@@ -74,8 +74,8 @@ Developers
     - Most of the current kernel development
     - Does most of the compiling
     - Built essentially all of this website so far
-    - Got kernel 4.5.0 working
-    - Attempting kernel 6.6 port
+    - Got kernel 4.5, 4.6, 4.9, 4.14, and 4.19 working
+    - Attempting kernel 5.4 port
 </pre>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://techflash.site"><img src="/icons/web_32x32.png" alt="Globe icon"></a>
@@ -108,6 +108,15 @@ Developers
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://github.com/foxlet"><img <?img("github");?> alt="GitHub Icon"></a>
 <a href="https://codeberg.org/foxlet"><img <?img("codeberg");?> alt="Codeberg Icon"></a>
+<pre>
+- "Tech64"
+    - Creator of HelpMii and ConfigMii
+    - Tester
+    - Funny guy
+</pre>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/tech64dd"><img <?img("github");?> alt="GitHub Icon"></a>
+<a href="https://tilde.club/~tech64/"><img src="/icons/web_32x32.png" alt="Globe Icon"></a>
 
 
 <pre>
