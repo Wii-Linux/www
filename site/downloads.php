@@ -24,6 +24,7 @@ These are distros that have the full support of the Wii-Linux team.  Custom pack
 They are verified to work reasonably well on the Wii's limited hardware, and get modern updates.  Automatic tarball and image creation is supported.
 You will recieve support for using these distros.
 
+<b>NEW!  ArchPOWER is now based on 4.19!</b>
 - Flashable images
   For use with Linux `dd`, Balena Etcher on Windows/Linux, etc
   Any disk image flasher should work.
