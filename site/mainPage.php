@@ -50,7 +50,7 @@ What works if you ignore the obvious problems:
 
 What doesn't work at all:
 - Wayland support (requires a Direct Rendering Manager / "DRM" driver for the Wii's GPU)
-- KGDB - Linux kernel deugger, works over USB Gecko (previously worked, but the driver I previously used is no longer present in 4.5 or newer)
+- KGDB - Linux kernel debugger, works over USB Gecko (previously worked, but the driver I previously used is no longer present in 4.5 or newer)
 - Running under the vWii (it can't use BootMii/MINI)
 - Booting from HBC (Homebrew Channel) under IOS (such kernels have been broken seemingly since they were introduced)
 
