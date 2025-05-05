@@ -47,6 +47,7 @@ What works and works well:
 What works if you ignore the obvious problems:
 - Anything that uses Java (memory issues, and INCREDIBLY slow)
 - The DVD driver (can see discs, can't do much with them)
+- The SDGecko (SD over memory card) driver (can see cards, can't read them properly)
 
 What doesn't work at all:
 - Wayland support (requires a Direct Rendering Manager / "DRM" driver for the Wii's GPU)
