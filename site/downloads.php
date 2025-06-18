@@ -58,8 +58,8 @@ be used under any circumstances.  You will recieve minimal support for getting t
 
 - Tarballs / Archives
   Requires installation via Linux on a PC
-  - Latest build's <img <?img("void");?> alt="Void Linux Icon"> Void-PPC rootfs (.tar.xz) <a href="/files/wii_linux_rootfs_void_ppc-latest.tar.xz">here.</a>
-  - Latest build's <img <?img("void");?> alt="Void Linux Icon"> Void-PPC SD Card files (.tar.gz) <a href="/files/wii_linux_sd_files_void_ppc-latest.tar.gz">here.</a>
+  - Latest build's <img <?img("void");?> alt="Void Linux Icon"> Void-PPC rootfs (.tar.xz) <a href="/files/archive/rootfs/wii_linux_rootfs_void_ppc-latest.tar.xz">here.</a>
+  - Latest build's <img <?img("void");?> alt="Void Linux Icon"> Void-PPC SD Card files (.tar.gz) <a href="/files/archive/sd-files/wii_linux_sd_files_void_ppc-latest.tar.gz">here.</a>
 
 Non-Distro Downloads
 --------------------
