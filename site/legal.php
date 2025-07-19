@@ -22,7 +22,7 @@ This website's content (text, images, video, etc) is available under the Creativ
 Privacy
 -------
 We don't collect any data on you when you visit this site.
-We since we don't collect anything, we don't sell anything either.
+Since we don't collect anything, we don't sell anything either.
 No cookies are in use.
 
 Your IP address, user agent, the page you are visiting, and
