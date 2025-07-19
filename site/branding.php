@@ -16,15 +16,6 @@ Wii-Linux Main Logo, Transparent Background:
 Wii-Linux Main Logo, White Background:
 <img src="/icons/branding/main-logo-white.png" alt="Wii-Linux Main Logo, White Background">
 
-"Wii-Linux 25" Concept, Wallpaper (1920x1080):
-<img src="/icons/branding/wl25-1080p.png" alt="&quot;Wii-Linux 25&quot; Concept, Wallpaper (1920x1080)">
-
-"Wii-Linux 25" Concept, Wallpaper (640x480):
-<img src="/icons/branding/wl25-480p.png" alt="&quot;Wii-Linux 25&quot; Concept, Wallpaper (640x480)">
-
-"Wii-Linux 25" Concept, DVD Box Art:
-<img src="/icons/branding/wl25-dvd.png" alt="&quot;Wii-Linux 25&quot; Concept, DVD Box Art">
-
 Wii-Linux Switch Companion, Boot Splash:
 <img src="/icons/branding/swcomp-splash.png" alt="Wii-Linux Switch Companion, Boot Splash">
 
