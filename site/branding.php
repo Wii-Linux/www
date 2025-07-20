@@ -53,9 +53,12 @@ Enforcement
 -----------
 The Wii-Linux team reserves the right to revoke permission to use the Branding at any time, for any reason.
 
-Copyright
----------
+Copyright &amp; Trademarks
+--------------------------
 All Wii-Linux branding is Copyright (C) 2024-2025 Tech64, licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-NC-SA).
 Some Wii-Linux branding contains the "Tux" character of Linux, which is Copyright (C) 1996 Larry Ewing &lt;lewing@isc.tamu.edu&gt; and The GIMP.
+
+The Wii-Linux project develops an operating system using the Linux kernel and components, and "Wii Linux" as a phrase does not reflect the inclusion of the Linux brand or trademark in the Wii-Linux project.
+"Linux®" is the registered trademark of Linus Torvalds in the U.S. and other countries.
 </pre>
 
