@@ -47,16 +47,14 @@ What works and works well:
 What works if you ignore the obvious problems:
 - Anything that uses Java (memory issues, and INCREDIBLY slow)
 - The DVD driver (can see discs, can't do much with them)
-- The SDGecko (SD over memory card) driver (can see cards, can't read them properly)
+- The SDGecko (SD over memory card) driver (can read and write cards, nearly unusably slow due to EXI limitations)
+- gamecube_defconfig on GameCube (nearly unusably slow due to the requirement of SDGecko for storage and swap)
 
 What doesn't work at all:
 - Wayland support (requires a Direct Rendering Manager / "DRM" driver for the Wii's GPU)
 - KGDB - Linux kernel debugger, works over USB Gecko (previously worked, but the driver I previously used is no longer present in 4.5 or newer)
 - Running under the vWii (it can't use BootMii/MINI)
 - Booting from HBC (Homebrew Channel) under IOS (such kernels have been broken seemingly since they were introduced)
-
-What's not known yet:
-- Does the gamecube_defconfig work on the GameCube?
 
 Links
 -----
