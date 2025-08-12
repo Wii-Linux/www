@@ -13,8 +13,8 @@
 </head>
 <body>
 <pre>
-Wii Linux
----------
+<b>Wii Linux</b>
+<b>---------</b>
 
 <?php
 global $isWii;
@@ -26,16 +26,16 @@ if ($oldBrowser) {
 	echo("Legacy browser detected, compatibility fixes applied!\r\n\r\n");
 }
 ?>
-It's Linux on the Wii, but it's actually modern, and (soon) works well!
+It's Linux on the Wii, but it's actually modern, and works well!
 
 What works and works well:
 - Booting
   - Booting properly to a getty or display-manager
   - Booting from the <a href=https://wiibrew.org/wiki/MINI>MINI</a> firmware replacement for the <a href=https://wiibrew.org/wiki/MINI>Starlet co-processor</a>
 - Hardware
-  - Using a portion of <a href=https://wiibrew.org/wiki/Memory_map>MEM2</a> to boost the total usable memory count from 24MB to ~72MB
+  - Using a portion of <a href=https://wiibrew.org/wiki/Memory_map>MEM2</a> to boost the total usable memory count from 24MB to ~78MB
   - Internal Broadcom 4318 Wi-Fi
-  - Bluetooth using bluez
+  - Internal Broadcom 2045A Bluetooth using bluez
   - USB ports, hubs, and devices
   - SD Cards
   - USB Gecko (serial console in GameCube memory card ports)
@@ -56,8 +56,8 @@ What doesn't work at all:
 - Running under the vWii (it can't use BootMii/MINI)
 - Booting from HBC (Homebrew Channel) under IOS (such kernels have been broken seemingly since they were introduced)
 
-Links
------
+<b>Links</b>
+<b>-----</b>
 - <a href="/downloads">Downloads page</a>  <b>Get all of the files here!</b>
 - <a href="https://discord.com/invite/D9EBdRWzv2">Official Discord Server</a>
 - <a href="https://wiki.wii-linux.org/wiki/Installation_Guide">Installation Guide</a>
