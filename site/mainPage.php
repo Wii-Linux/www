@@ -31,7 +31,7 @@ It's Linux on the Wii, but it's actually modern, and works well!
 What works and works well:
 - Booting
   - Booting properly to a getty or display-manager
-  - Booting from the <a href=https://wiibrew.org/wiki/MINI>MINI</a> firmware replacement for the <a href=https://wiibrew.org/wiki/MINI>Starlet co-processor</a>
+  - Booting from the <a href=https://wiibrew.org/wiki/MINI>MINI</a> firmware replacement for the <a href=https://wiibrew.org/wiki/Hardware/Starlet>Starlet co-processor</a>
 - Hardware
   - Using a portion of <a href=https://wiibrew.org/wiki/Memory_map>MEM2</a> to boost the total usable memory count from 24MB to ~78MB
   - Internal Broadcom 4318 Wi-Fi
@@ -130,3 +130,6 @@ Special thanks
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://rummage.cc"><img src="/icons/web_32x32.png" alt="Globe icon"></a>
 <a href="https://github.com/owenrummage"><img <?img("github");?> alt="GitHub Icon"></a>
+<pre>
+<a href="https://nixlabs.dev"><img src="https://nixlabs.dev/88x31.png"/></a>
+</pre>
