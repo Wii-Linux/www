@@ -23,3 +23,6 @@ You can check the commit logs on GitHub (<a href="https://github.com/Wii-Linux/b
 
 <b>For regular users:</b>
 This announcement probably doesn't concern you.  You'll see that `wii-linux-loader-stable` will be removed next time you try to update - this will not affect functionality, and you should not be concerned.
+<?php
+require '___footer.php'
+?>
