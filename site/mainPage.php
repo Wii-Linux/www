@@ -73,8 +73,8 @@ Developers
     - Most of the current kernel development
     - Does most of the compiling
     - Built essentially all of this website so far
-    - Got kernel 4.5, 4.6, 4.9, 4.14, and 4.19 working
-    - Attempting kernel 5.4 port
+    - Got everything after kernel 4.5 working
+    - Got Wii-Linux (mostly) up to mainline (6.17)
 </pre>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://techflash.site"><img src="/icons/web_32x32.png" alt="Globe icon"></a>
