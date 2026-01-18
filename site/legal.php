@@ -14,7 +14,7 @@ $showLegal = false;
 Wii Linux - Legal
 -----------------
 <a href="/">Back to main page</a>
-Wii Linux Website - © Copyright 2024-2025 Techflash.  Some rights reserved.
+Wii Linux Website - © Copyright 2024-2026 Techflash.  Some rights reserved.
 This website's source code (PHP) is available under the GNU General Public License, version 2.0.
 This website's content (text, images, video, etc) is available under the Creative Commons "CC BY-NC-SA" license.
 See the dedicated page about our <a href="/branding">branding and usage guidelines</a>.
