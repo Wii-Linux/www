@@ -9,11 +9,11 @@
 	}
 </style>
 <?php globalHeadStuff(); ?>
-<title>Wii Linux</title>
+<title>Wii-Linux</title>
 </head>
 <body>
 <pre>
-<b>Wii Linux</b>
+<b>Wii-Linux</b>
 <b>---------</b>
 
 <?php
@@ -26,7 +26,7 @@ if ($oldBrowser) {
 	echo("Legacy browser detected, compatibility fixes applied!\r\n\r\n");
 }
 ?>
-It's Linux on the Wii, but it's actually modern, and works well!
+It's Linux(R) on the Wii(TM), but it's actually modern, and works well!
 
 What works and works well:
 - Booting
@@ -61,8 +61,8 @@ What doesn't work at all:
 - <a href="/downloads">Downloads page</a>  <b>Get all of the files here!</b>
 - <a href="https://discord.com/invite/D9EBdRWzv2">Official Discord Server</a>
 - <a href="https://wiki.wii-linux.org/wiki/Installation_Guide">Installation Guide</a>
-- <a href="https://wiki.wii-linux.org/">Official Wii Linux Wiki</a>
-- <a href="/blog">Wii Linux developers blog</a>  See progress updates and generally what's going on here.
+- <a href="https://wiki.wii-linux.org/">Official Wii-Linux Wiki</a>
+- <a href="/blog">Wii-Linux developers blog</a>  See progress updates and generally what's going on here.
 
 Developers
 -----------

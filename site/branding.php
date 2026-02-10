@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang=en>
 <head>
-<title>Wii Linux - Branding</title>
+<title>Wii-Linux - Branding</title>
 <?php globalHeadStuff(); ?>
 </head>
 <body>
 <pre>
-Wii Linux - Branding
+Wii-Linux - Branding
 --------------------
 <a href="/">Back to main page</a>
 

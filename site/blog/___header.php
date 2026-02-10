@@ -18,7 +18,7 @@ include '___version.php'
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Wii Linux - Blog: <?php echo $title?></title>
+	<title>Wii-Linux - Blog: <?php echo $title?></title>
 	<?php
 	if ($injectHead !== null) {
 		echo($injectHead);
@@ -28,7 +28,7 @@ include '___version.php'
 </head>
 <body>
 <pre>
-Wii Linux Developers Blog
+Wii-Linux Developers Blog
 -------------------------
 
 Blog Post

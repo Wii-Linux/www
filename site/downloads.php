@@ -9,11 +9,11 @@
 	}
 </style>
 <?php globalHeadStuff(); ?>
-<title>Wii Linux</title>
+<title>Wii-Linux</title>
 </head>
 <body>
 <pre>
-Wii Linux - Downloads
+Wii-Linux - Downloads
 ---------------------
 <a href="/">Back to main page</a>
 <b>You can refer to the <a href="https://wiki.wii-linux.org/wiki/Installation_Guide">Installation Guide</a> to install these.</b>
@@ -85,5 +85,5 @@ Legacy versions
 You shouldn't need these, but they are kept around for historical reasons
 --------------
 - <a href="/files/archive">The archive</a> - really old versions, and superseded releases of the current versions
-- <a href="https://archive.org/details/wii-linux-backup_202409">archive #1</a> of old pre-server-crash releases of Wii Linux - by Selim
-- <a href="http://pretzels.onthewifi.com/files/wii_linux/">archive #2</a> of old pre-server-crash releases of Wii Linux - by Tech64
+- <a href="https://archive.org/details/wii-linux-backup_202409">archive #1</a> of old pre-server-crash releases of Wii-Linux - by Selim
+- <a href="http://pretzels.onthewifi.com/files/wii_linux/">archive #2</a> of old pre-server-crash releases of Wii-Linux - by Tech64

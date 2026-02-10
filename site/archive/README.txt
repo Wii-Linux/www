@@ -1,4 +1,4 @@
-This is the Wii Linux archive.
+This is the Wii-Linux archive.
 
 Old crap goes here to die.
 Here you can find old, deprecated releases, and old releases of things

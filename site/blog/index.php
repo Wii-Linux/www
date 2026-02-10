@@ -30,12 +30,12 @@ uasort($metadata, function ($a, $b) {
 <!DOCTYPE html>
 <html lang=en>
 <head>
-<title>Wii Linux Developers Blog</title>
+<title>Wii-Linux Developers Blog</title>
 <?php globalHeadStuff(); ?>
 </head>
 <body>
 <pre>
-Wii Linux Developers Blog
+Wii-Linux Developers Blog
 -------------------------
 <a href="/">Back to main page</a>
 <?php
