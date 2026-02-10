@@ -38,7 +38,7 @@ What works and works well:
   - Internal Broadcom 2045A Bluetooth using bluez
   - USB ports, hubs, and devices
   - SD Cards
-  - USB Gecko (serial console in GameCube memory card ports)
+  - USB Gecko (serial console in GameCube(TM) memory card ports)
   - Graphics output, in either 480i or 480p, using either the Linux VT, or anything that writes to /dev/fb0 (e.g. Xorg)
   - Swapping to SD Card or USB device
 - App support
