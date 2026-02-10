@@ -22,6 +22,10 @@ function globalHeadStuff() {
 	$isHTML = true;
 	echo '<meta name="viewport" content="width=device-width, initial-scale=1" />';
 	echo '<meta name="description" content="Small project dedicated to getting modern Linux running on the Nintendo Wii and GameCube" />';
+	echo '<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">';
+	echo '<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">';
+	echo '<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">';
+	echo '<link rel="manifest" href="/site.webmanifest">';
 }
 
 function uaContains($search) {
