@@ -62,7 +62,7 @@ you can check out the `wii-v5.4` branch on the kernel repo on GitHub, to see
 what I did, but it doesn't really work.  It compiles, it technically boots,
 but USB is completely broken, and the SD Card is incredibly unstable.
 
-However, I will continue to iterate on 4.19, with some spicy now changes
+However, I will continue to iterate on 4.19, with some spicy new changes
 planned.  In no particular order:
 * GameCube support
 * Fixing rvl-di (Wii DVD drive)
