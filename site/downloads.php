@@ -65,14 +65,9 @@ Non-Distro Downloads
 --------------------
 Various bits and pieces, mainly for developers looking to create their own distro.
 
-- Latest build's (kernel 4.19.325) loader.img <a href="/files/wii_linux_loader_v4_19_325-latest.img">here.</a>
-- Latest build's kernel (4.19.325) modules (.tar.gz) <a href="/files/wii_linux_modules_v4_19_325-latest.tar.gz">here.</a>
-- Latest build's kernel (4.19.325) binary <a href="/files/wii_linux_kernel_v4_19_325-latest.elf">here.</a>
-- Latest build's (kernel 4.5.0) loader.img <a href="/files/wii_linux_loader_v4_5_0-latest.img">here.</a>
-- Latest build's kernel (4.5.0) modules (.tar.gz) <a href="/files/wii_linux_modules_v4_5_0-latest.tar.gz">here.</a>
-- Latest build's kernel (4.5.0) binary <a href="/files/wii_linux_kernel_v4_5_0-latest.elf">here.</a>
+- Latest build's kernel (7.2.3) modules (.tar.gz) <a href="/files/wii_linux_modules_v7_2_3-latest.tar.gz">here.</a>
+- Latest build's kernel (7.2.3) binary <a href="/files/wii_linux_kernel_v7_2_3-latest.elf">here.</a>
 - Wi-Fi Firmware (.tar.gz.  extract to the root of your USB disk) <a href="/openfwwf-5.2-bin.tar.gz">here.</a>  See the <a href="/openfwwf-5.2-LICENSE.txt">LICENSE</a>
-- <a href="/kernel-docs.zip">Linux 4.5 Documentation (HTML)</a>, built, and then assembled as a ZIP archive.
 
 
 In-Development versions
@@ -84,6 +79,13 @@ See testing files <a href="/files/testing">here.</a>
 Legacy versions
 You shouldn't need these, but they are kept around for historical reasons
 --------------
+- Latest build's (kernel 4.19.325) loader.img <a href="/files/wii_linux_loader_v4_19_325-latest.img">here.</a>
+- Latest build's kernel (4.19.325) modules (.tar.gz) <a href="/files/wii_linux_modules_v4_19_325-latest.tar.gz">here.</a>
+- Latest build's kernel (4.19.325) binary <a href="/files/wii_linux_kernel_v4_19_325-latest.elf">here.</a>
+- Latest build's (kernel 4.5.0) loader.img <a href="/files/wii_linux_loader_v4_5_0-latest.img">here.</a>
+- Latest build's kernel (4.5.0) modules (.tar.gz) <a href="/files/wii_linux_modules_v4_5_0-latest.tar.gz">here.</a>
+- Latest build's kernel (4.5.0) binary <a href="/files/wii_linux_kernel_v4_5_0-latest.elf">here.</a>
+- <a href="/kernel-docs.zip">Linux 4.5 Documentation (HTML)</a>, built, and then assembled as a ZIP archive.
 - <a href="/files/archive">The archive</a> - really old versions, and superseded releases of the current versions
 - <a href="https://archive.org/details/wii-linux-backup_202409">archive #1</a> of old pre-server-crash releases of Wii-Linux - by Selim
 - <a href="http://pretzels.onthewifi.com/files/wii_linux/">archive #2</a> of old pre-server-crash releases of Wii-Linux - by Tech64
