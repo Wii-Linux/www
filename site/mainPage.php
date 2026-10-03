@@ -32,6 +32,7 @@ What works and works well:
 - Booting
   - Booting properly to a getty or display-manager
   - Booting from the <a href=https://wiibrew.org/wiki/MINI>MINI</a> firmware replacement for the <a href=https://wiibrew.org/wiki/Hardware/Starlet>Starlet co-processor</a>
+  - Booting from HBC (Homebrew Channel) under IOS (requires booting from NPLL, which loads MINI itself in such a case)
 - Hardware
   - Using a portion of <a href=https://wiibrew.org/wiki/Memory_map>MEM2</a> to boost the total usable memory count from 24MB to ~78MB
   - Internal Broadcom 4318 Wi-Fi
@@ -41,20 +42,18 @@ What works and works well:
   - USB Gecko (serial console in GameCube(TM) memory card ports)
   - Graphics output, in either 480i or 480p, using either the Linux VT, or anything that writes to /dev/fb0 (e.g. Xorg)
   - Swapping to SD Card or USB device
+  - Optical drive (can always read official discs, and on compatible models can read DVD-R/ROM media as well)
+  - SDGecko (SD over GCN memory card)
 - App support
   - Most applications that you would want to use - anything in ArchPOWER officially, including handpicked extras on my own repo.
 
 What works if you ignore the obvious problems:
-- Anything that uses Java (memory issues, and INCREDIBLY slow)
-- The DVD driver (can see discs, can't do much with them)
-- The SDGecko (SD over memory card) driver (can read and write cards, nearly unusably slow due to EXI limitations)
 - gamecube_defconfig on GameCube (nearly unusably slow due to the requirement of SDGecko for storage and swap)
+- Running under the vWii (requires booting from NPLL, no WiFi)
 
 What doesn't work at all:
 - Wayland support (requires a Direct Rendering Manager / "DRM" driver for the Wii's GPU)
 - KGDB - Linux kernel debugger, works over USB Gecko (previously worked, but the driver I previously used is no longer present in 4.5 or newer)
-- Running under the vWii (it can't use BootMii/MINI)
-- Booting from HBC (Homebrew Channel) under IOS (such kernels have been broken seemingly since they were introduced)
 
 <b>Links</b>
 <b>-----</b>
@@ -74,7 +73,7 @@ Developers
     - Does most of the compiling
     - Built essentially all of this website so far
     - Got everything after kernel 4.5 working
-    - Got Wii-Linux (mostly) up to mainline (6.17)
+    - Got Wii-Linux (mostly) up to mainline (7.2)
 </pre>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://techflash.site"><img src="/icons/web_32x32.png" alt="Globe icon"></a>
