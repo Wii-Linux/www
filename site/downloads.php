@@ -65,8 +65,8 @@ Non-Distro Downloads
 --------------------
 Various bits and pieces, mainly for developers looking to create their own distro.
 
-- Latest build's kernel (7.2.3) modules (.tar.gz) <a href="/files/wii_linux_modules_v7_2_3-latest.tar.gz">here.</a>
-- Latest build's kernel (7.2.3) binary <a href="/files/wii_linux_kernel_v7_2_3-latest.elf">here.</a>
+- Latest build's kernel (7.2.10) modules (.tar.gz) <a href="/files/wii_linux_modules_v7_2_10-latest.tar.gz">here.</a>
+- Latest build's kernel (7.2.10) binary <a href="/files/wii_linux_kernel_v7_2_10-latest.elf">here.</a>
 - Wi-Fi Firmware (.tar.gz.  extract to the root of your USB disk) <a href="/openfwwf-5.2-bin.tar.gz">here.</a>  See the <a href="/openfwwf-5.2-LICENSE.txt">LICENSE</a>
 
 
